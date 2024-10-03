@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 5 example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body class="p-4">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Finn riktig ladekabel</h2>
+        <div class="mb-3">
+            <label for="brandSelect" class="form-label">Vel bil-merke:</label>
+            <select class="form-select" id="brandSelect" onchange="loadModels()">
+                <option value="">Velg merke</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="modelSelect" class="form-label">Velg bil-modell:</label>
+            <select class="form-select" id="modelSelect" onchange="displayDetails()">
+                <option value="">Velg model</option>
+            </select>
+        </div>
+        <div class="card" id="carInfo" style="display: none;">
+            <div class="card-body">
+                <h5 class="card-title" id="carTitle"></h5>
+                <p><strong>Ladekontakt:</strong> <span id="ladekontakt"></span></p>
+                <p><strong>Batterikapasitet:</strong> <span id="batterikapasitet"></span></p>
+                <p><strong>Ombordlader:</strong> <span id="ombordlader"></span></p>
+                <p><strong>4m-5m:</strong> <span id="cable45"></span></p>
+                <p><strong>7m-7.5m:</strong> <span id="cable75"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

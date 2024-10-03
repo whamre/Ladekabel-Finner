@@ -1,0 +1,16 @@
+{
+  "name": "ladekabel-finner",
+  "version": "1.0.0",
+  "description": "[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/whamre/Ladekabel-finner)",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/main.css --poll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.79.4"
+  }
+}
