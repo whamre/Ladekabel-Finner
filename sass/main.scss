@@ -1,2 +1,29 @@
 
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    background-color: #282828;
+}
+
+h2, label {
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer {
+    position: fixed;
+    bottom: 1%;
+    width: 95%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
